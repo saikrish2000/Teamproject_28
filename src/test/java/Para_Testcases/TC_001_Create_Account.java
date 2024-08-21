@@ -2,7 +2,7 @@ package Para_Testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
+
 
 import Para_Pageobjects.Create_Account_page;
 import Para_Pageobjects.Para_Homepage;
