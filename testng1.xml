@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="Para_Utilties.Reporting"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+	<classes>
+		 <class name="Para_Testcases.TC_001_Create_Account"></class> 
+	 	<class name="Para_Testcases.TC_002_Para_Login"></class>  
+	    <class name="Para_Testcases.TC_003_Loginwith_DataDriven"></class>
+	
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
